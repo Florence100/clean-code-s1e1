@@ -35,7 +35,9 @@
   margin: 0 auto 0;
 }
 
-.add-task__input, .task-details__text, .task-details__input {
+.add-task__input,
+.task-details__text,
+.task-details__input {
   width: 56%;
   display: inline-block;
   flex-grow: 1
@@ -45,7 +47,8 @@
   display: flex;
 }
 
-.todo-tasks, .completed-tasks {
+.todo-tasks,
+.completed-tasks {
   margin: 0;
   padding: 0px;
 }
@@ -54,7 +57,8 @@
   list-style: none;
 }
 
-.input, .button {
+.input,
+.button {
   outline: none;
 }
 
