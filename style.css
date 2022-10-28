@@ -46,7 +46,7 @@
 }
 
 .todo-tasks, .completed-tasks {
-  margin:0;
+  margin: 0;
   padding: 0px;
 }
 
@@ -54,7 +54,7 @@
   list-style: none;
 }
 
-.input, .button{
+.input, .button {
   outline: none;
 }
 
@@ -161,17 +161,17 @@ ul#completed-tasks label {
 /* Edit Task */
 .todo-tasks .input[type=text],
 .completed-tasks .input[type=text] {
-  display:none
+  display: none
 }
 
 .todo-tasks .task-details_edit-mode .input[type=text],
 .completed-tasks .task-details_edit-mode .input[type=text] {
-  display:inline-block;
-  width:224px
+  display: inline-block;
+  width: 224px
 }
 
 .todo-tasks .task-details_edit-mode .task-details__text,
 .completed-tasks .task-details_edit-mode .task-details__text {
-  display:none;
+  display: none;
 }
 
