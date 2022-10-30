@@ -20,50 +20,48 @@
   <main class="main">
     <section class="add-task">
       <label for="new-task" class="add-task__text">Add Item</label>
-      <div class="add-task-wrapper">
-        <input id="new-task" class="input add-task__input" type="text">
-        <button class="button add-task__button">Add</button>
-      </div>
+      <input id="new-task" class="input add-task__input" type="text">
+      <button class="button add-task__button">Add</button>
     </section>
     <section class="todo-tasks">
-      <h3 class="sub-title">Todo</h3>
-      <ul id="todo-tasks-list" class="todo-tasks-list">
-        <li class="task-details">
-          <input class="input task-details__checkbox" type="checkbox">
-          <label class="task-details__text">Pay Bills</label>
-          <input class="input task-details__input" type="text">
-          <button class="button task-details__edit">Edit</button>
-          <button class="button task-details__delete">
-            <img class="img button__img" src="./remove.svg">
+      <h3 class="todo-tasks__title">Todo</h3>
+      <ul class="tasks-list tasks-list_todo">
+        <li class="tasks-list__item">
+          <input class="input tasks-list__checkbox" type="checkbox">
+          <label class="tasks-list__text">Pay Bills</label>
+          <input class="input tasks-list__input" type="text">
+          <button class="button tasks-list__edit">Edit</button>
+          <button class="button tasks-list__delete">
+            <img class="img" src="./remove.svg">
           </button>
         </li>
-        <li class="task-details task-details_edit-mode">
-          <input class="input task-details__checkbox" type="checkbox">
-          <label class="task-details__text">Go Shopping</label>
-          <input class="input task-details__input" type="text" value="Go Shopping">
-          <button class="button task-details__edit">Save</button>
-          <button class="button task-details__delete">
-            <img class="img button__img" src="./remove.svg" alt="Delete">
+        <li class="tasks-list__item task-details_edit-mode">
+          <input class="input tasks-list__checkbox" type="checkbox">
+          <label class="tasks-list__text">Go Shopping</label>
+          <input class="input tasks-list__input" type="text" value="Go Shopping">
+          <button class="button tasks-list__edit">Save</button>
+          <button class="button tasks-list__delete">
+            <img class="img" src="./remove.svg" alt="Delete">
           </button>
         </li>
       </ul>
     </section>
     <section class="completed-tasks">
-      <h3 class="sub-title">Completed</h3>
-      <ul id="completed-tasks-list" class="completed-tasks-list">
-        <li class="task-details">
-          <input class="input task-details__checkbox" type="checkbox" checked>
-          <label class="task-details__text">See the Doctor</label>
-          <input class="input task-details__input" type="text">
-          <button class="button task-details__edit">Edit</button>
-          <button class="button task-details__delete">
-            <img class="img button__img" src="./remove.svg">
+      <h3 class="completed-tasks__title">Completed</h3>
+      <ul class="tasks-list tasks-list_completed">
+        <li class="tasks-list__item">
+          <input class="input tasks-list__checkbox" type="checkbox" checked>
+          <label class="tasks-list__text">See the Doctor</label>
+          <input class="input tasks-list__input" type="text">
+          <button class="button tasks-list__edit">Edit</button>
+          <button class="button tasks-list__delete">
+            <img class="img" src="./remove.svg">
           </button>
         </li>
       </ul>
     </section>
   </main>
-<script src="app.js"></script>
+  <script src="app.js"></script>
 </body>
 </html>
 
